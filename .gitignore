@@ -59,8 +59,8 @@ logs/
 data/
 *.pkl
 
-# Streamlit
-.streamlit/
+# Streamlit (config는 포함, secrets는 제외)
+.streamlit/secrets.toml
 
 # Environment variables
 .env
